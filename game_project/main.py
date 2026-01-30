@@ -32,7 +32,7 @@ def battle_round(character, target):
     elif isinstance(character, Healer):  # If the character is a Healer
         print(character.heal(target))  # Heal the target
     elif isinstance(character, Archer): #If the characer is an Archer
-        print(character.fire_arrow(target))
+        print(character.fire_arrow(target)) # Fire an arrow at the target
     elif isinstance(character, Warrior):  # If the character is a Warrior
         print(f"{character.name} displays their strength: {character.strength}")  # Display the warrior's strength
 
